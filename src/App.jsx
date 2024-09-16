@@ -1,9 +1,12 @@
-import Canvas from "./Components/Canvas";
+import { Outlet } from "react-router-dom";
+import Products from "./Components/Products/Products";
 
 function App() {
   return (
     <>
-      <Canvas />
+      <div>
+        <Outlet />
+      </div>
     </>
   );
 }
